@@ -4,7 +4,7 @@ library protocols;
  * parse a input url and return a protocols List
  */
 List<String> protocols(String url) {
-  String match = new RegExp(r'^\s?[\w\+]+(?=\:\/\/)|[\w\+]+(?=\@)').stringMatch(url);
+  String match = new RegExp(r'^\s?[\w\+]+(?=\:\/\/)|\s?[\w\+]+(?=\@)').stringMatch(url);
 
   if (match == null) return [''];
 
