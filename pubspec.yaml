@@ -1,0 +1,7 @@
+name: protocols
+version: 0.1.0
+author: axetroy <troy450409405@gmail.com>
+description: Get the protocols of an input url.
+homepage: https://github.com/axetroy/protocols
+dev_dependencies:
+  test:
